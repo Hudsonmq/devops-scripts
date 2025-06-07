@@ -13,7 +13,7 @@ jobs:
        uses: actions/checkout@v4
 
      - name: Run ShellCheck
-       uses: koalman/shellcheck-action@v1
+       uses: ludeeus/action-shellcheck@master
        with:
         files: |
             disk_usage_report.sh
